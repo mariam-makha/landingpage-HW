@@ -19,7 +19,7 @@ h1{
     justify-content: space-between;
     align-items: center;
     padding-top: 18px;
-    padding-bottom: 18px;
+    padding-bottom: 40px;
 }
 .nav-link{
     font-family: 'Ubuntu',sans-serif;
@@ -38,6 +38,16 @@ h1{
 .navigation{
     display: flex;
     gap: 50px;
+}
+.menu{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li{
+    position: relative;
 }
 .first_section{
     background-image: url(assets/landingpage.png);
@@ -134,7 +144,6 @@ h1{
 }
 .rooms-gallery{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     gap: 60px;
 }
@@ -241,4 +250,32 @@ footer{
 }
 .gallery-grid img:last-child{
     grid-area: 2/3/3/6;
+}
+
+.subcategory {
+    display: none;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px; 
+    background-color: #fff;
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+.theme:hover .subcategory {
+    display: block;
+}
+
+.subcategory li {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px 0;
+    font-size: 16px;
+    color: #333;
+    transition: color 0.3s ease;
+    list-style: disc;
+}
+
+.subcategory li:hover {
+    color: #555;
 }
