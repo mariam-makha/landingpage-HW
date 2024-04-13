@@ -36,4 +36,23 @@ function generateContactInformation($fcontact) {
         echo '<a href="'.$contact['link'].'">'.$contact['text'].'</a>';
     }
 };
+
+function generateNewsCards($newscards) {
+    foreach ($newscards as $card) {
+        echo '
+        <div class="news-card">
+            <img src="' . $card['image'] . '" alt="img5">
+            <div class="news-card-content">
+                <h3 class="card-title">' . $card['title'] . '</h3>
+                <p class="card-title">' . $card['description'] . '</p>
+                <a href="#" class="button button-small">' . $card['button'] . '</a>
+            </div>
+        </div>';
+    }
+};
+function generateGallery($newscards) {
+    foreach ($newscards as $image) {
+        echo '<img src="' . $image['image'] . '" alt="">';
+    }
+};
 ?>

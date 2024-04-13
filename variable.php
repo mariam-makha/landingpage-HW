@@ -24,7 +24,7 @@ $roomcards=
 ];
 $categories=[
     [
-        'link'=>'#first-section',
+        'link'=>'index.php#first-section',
         'name'=>'Our hotel',
         'sub'=>[
             [
@@ -41,7 +41,7 @@ $categories=[
             ],]
     ],
     [
-        'link'=>'#second-section',        
+        'link'=>'index.php#second-section',        
         'name'=>'Rooms & Rates',
         'sub'=>[
             [
@@ -58,7 +58,7 @@ $categories=[
             ],]
     ],
     [
-        'link'=>'newspage.html',
+        'link'=>'newspage.php',
         'name'=>'Facilities',
         'sub'=>[
             [
@@ -75,7 +75,7 @@ $categories=[
             ],]
     ],
     [
-        'link'=>'#third-section',
+        'link'=>'index.php#third-section',
         'name'=>'Contact Us',
         'sub'=>[
             [
@@ -92,7 +92,7 @@ $categories=[
             ],]
     ],
     [
-        'link'=>'#third-section',
+        'link'=>'index.php#third-section',
         'name'=>'Latest News',
         'sub'=>[
             [
@@ -109,7 +109,7 @@ $categories=[
             ],]
     ],
     [
-        'link'=>'newspage.html',
+        'link'=>'newspage.php',
         'name'=>'Booking',
         'sub'=>[
             [
@@ -153,5 +153,37 @@ $fcontact = [
     ['link' => 'mailto:makhatadze.mar@gmail.com',
     'text' => 'makhatadze.mar@gmail.com'
     ],
+];
+$newscards = [
+    [
+        'image' => 'assets/room5.png',
+        'title' => 'Standard Twin Room',
+        'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis urna id arcu mattis porttitor laoreet at eros.',
+        'button' => 'Check Rates',
+    ],
+    [
+        'image' => 'assets/room6.png',
+        'title' => 'Standard Room',
+        'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis urna id arcu mattis porttitor laoreet at eros.',
+        'button' => 'Check Rates',
+    ],
+    [
+        'image' => 'assets/room7.png',
+        'title' => 'Standard View Room',
+        'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis urna id arcu mattis porttitor laoreet at eros.',
+        'button' => 'Check Rates',
+    ],
+    [
+        'image' => 'assets/room8.png',
+        'title' => 'Deluxe Room',
+        'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis urna id arcu mattis porttitor laoreet at eros.',
+        'button' => 'Check Rates',
+    ],
+];
+$galleryImages=[
+    'assets/room8.png',
+    'assets/room6.png',
+    'assets/room7.png',
+    'assets/room5.png'
 ];
 ?>
